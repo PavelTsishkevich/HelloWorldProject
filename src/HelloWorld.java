@@ -49,17 +49,17 @@ public class HelloWorld {
         System.out.println(minValue <= maxValue);
         System.out.println(minValue >= maxValue);
         boolean isEqual = minValue == maxValue;
-        System.out.println(minValue++< 0 && maxValue-- > 10);
-        System.out.println(minValue> 0 || maxValue++ > 10);
-        System.out.println(!(minValue> 0));
+        System.out.println(minValue++ < 0 && maxValue-- > 10);
+        System.out.println(minValue > 0 || maxValue++ > 10);
+        System.out.println(!(minValue > 0));
 
-        System.out.println(minValue< 0 & maxValue-- > 10);
-        System.out.println(minValue> 0 | maxValue++ > 10);
+        System.out.println(minValue < 0 & maxValue-- > 10);
+        System.out.println(minValue > 0 | maxValue++ > 10);
 
-        minValue+=3;
-        minValue-=3;
-        minValue*=3;
-        minValue/=3;
-        minValue%=3;
+        minValue += 3;
+        minValue -= 3;
+        minValue *= 3;
+        minValue /= 3;
+        minValue %= 3;
     }
 }
